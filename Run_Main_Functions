@@ -1,0 +1,7 @@
+library(devtools)
+u1 <- "https://raw.githubusercontent.com/simaan84/KWZ/main/Main_Functions/Backtesting.R"
+u2 <- "https://raw.githubusercontent.com/simaan84/KWZ/main/Main_Functions/Getting_Data.R"
+u3 <- "https://raw.githubusercontent.com/simaan84/KWZ/main/Main_Functions/Decision_Rules.R"
+
+u_list <- c(u1,u2,u3)
+lapply(u_list,source_url)
